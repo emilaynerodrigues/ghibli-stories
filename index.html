@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ghibli Stories</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amarante&family=Anton&family=Dosis:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <!-- link css -->
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <span class="logo">ghibli stories</span>
+    </header>
+
+    <main class="container">
+      <div class="content content-1">
+        <!-- intro -->
+        <div class="intro">
+          <h1 class="title">O incrivel mundo <span>do Studio Ghibli</span></h1>
+          <p class="text">
+            Para relembrar ou conhecer mais sobre todas as histórias fantásticas
+            desse universo!
+          </p>
+          <button class="btn">assista agora</button>
+        </div>
+
+        <!-- movies -->
+        <div class="swiper mySwiper">
+          <div class="pagination">
+            <div class="swiper-button-next">Histórias</div>
+          </div>
+          <div class="swiper-wrapper movies-wrapper">
+            <!-- o castelo animado -->
+            <button class="swiper-slide movie">
+              <img
+                src="assets/movies/0-castlo-animado.jpeg"
+                alt="Filme O Castelo Animado"
+              />
+            </button>
+
+            <!-- meu amigo totoro -->
+            <button class="swiper-slide movie">
+              <img
+                src="assets/movies/1-meu-amigo-totoro.jpeg"
+                alt="Filme Meu Amigo Totoro"
+              />
+            </button>
+
+            <!-- nausicaa -->
+            <button class="swiper-slide movie">
+              <img
+                src="assets/movies/2-nausicaa.jpeg"
+                alt="Filme Nausicaa do Vale do Vento"
+              />
+            </button>
+
+            <!-- mundo dos pequeninos -->
+            <button class="swiper-slide movie">
+              <img
+                src="assets/movies/3-mundo-dos-pequequinos.jpeg"
+                alt="Filme O Mundo dos Pequeninos"
+              />
+            </button>
+
+            <!-- viagem de chiriro -->
+            <button class="swiper-slide movie">
+              <img
+                src="assets/movies/4-viagem-de-chiriro.jpeg"
+                alt="Filme A Viagem de Chiriro"
+              />
+            </button>
+
+            <!-- kiki -->
+            <button class="swiper-slide movie">
+              <img
+                src="assets/movies/5-kiki.jpeg"
+                alt="Filme O Serviço de Entregas da Kiki"
+              />
+            </button>
+
+            <!-- princesa mononoke -->
+            <button class="swiper-slide movie">
+              <img
+                src="assets/movies/6-princesa-mononoke.jpeg"
+                alt="Filme Princesa Monoke"
+              />
+            </button>
+
+            <!-- contos de terramar -->
+            <button class="swiper-slide movie">
+              <img
+                src="assets/movies/7-contos-de-terramar.jpeg"
+                alt="Filme Contos de Terramar"
+              />
+            </button>
+
+            <!-- o castelo no ceu -->
+            <button class="swiper-slide movie">
+              <img
+                src="assets/movies/8-o-castelo-no-ceu.jpeg"
+                alt="Filme O Castelo no Céu"
+              />
+            </button>
+
+            <!-- ponyo -->
+            <button class="swiper-slide movie">
+              <img src="assets/movies/9-ponyo.jpeg" alt="Filme Ponyo" />
+            </button>
+
+            <!-- porco rosso -->
+            <button class="swiper-slide movie">
+              <img
+                src="assets/movies/10-porco-rosso.jpeg"
+                alt="Filme Porco Rosso"
+              />
+            </button>
+
+            <!-- reino dos gatos -->
+            <button class="swiper-slide movie">
+              <img
+                src="assets/movies/11-reino-dos-gatos.jpeg"
+                alt="Filme O Reino dos Gatos"
+              />
+            </button>
+
+            <!-- vidas ao vento -->
+            <button class="swiper-slide movie">
+              <img
+                src="assets/movies/12-vidas-ao-vento.jpg"
+                alt="Filme Vidas ao Vento"
+              />
+            </button>
+
+            <!-- da colina kokuriko -->
+            <button class="swiper-slide movie">
+              <img
+                src="assets/movies/13-colina-kokuriko.jpeg"
+                alt="Filme Da Colina Kokuriko"
+              />
+            </button>
+          </div>
+          <!-- <div class="swiper-pagination"></div> -->
+        </div>
+      </div>
+
+      <div class="content content-2">
+        <!-- castelo animado -->
+        <div class="movie-info active">
+          <img
+            src="assets/movies/0-castlo-animado.jpeg"
+            alt="Filme O Castelo Animado"
+          />
+
+          <p class="text">
+            Uma bruxa lança uma terrível maldição sobre a jovem Sophie
+            transformando-a em uma velha. Desesperada, ela embarca em uma
+            odisseia em busca do mago Howl, um misterioso feiticeiro que pode
+            ajudá-la a reverter o feitiço.
+          </p>
+
+          <button class="btn">saiba mais</button>
+        </div>
+
+        <!-- totoro -->
+        <div class="movie-info">
+          <img
+            src="assets/movies/1-meu-amigo-totoro.jpeg"
+            alt="Filme Meu Amigo Totoro"
+          />
+
+          <p class="text">
+            As irmãs Satsuki e Mei se mudam para o campo para ficar mais perto
+            do hospital onde sua mãe está internada. Lá conhecem os Totoros,
+            adoráveis criaturas místicas e alegres, que só podem ser vistas
+            pelas crianças.
+          </p>
+
+          <button class="btn">saiba mais</button>
+        </div>
+
+        <!-- nausicaa -->
+        <div class="movie-info">
+          <img
+            src="assets/movies/2-nausicaa.jpeg"
+            alt="Filme Nausicaa do Vale do Vento"
+          />
+
+          <p class="text">
+            Mil se passaram após a Terra ser varrida pela Guerra dos Sete Dias
+            de Fogo. O planeta se tornou hostil, cheio de florestas tóxicas e
+            insetos gigantes. Enquanto tenta navegar nesse mundo de perigos, a
+            princesa Nausicaä, a soberana de um pequeno reino, tenta de todas as
+            formas salvar o seu povo.
+          </p>
+
+          <button class="btn">saiba mais</button>
+        </div>
+
+        <!-- mundo dos pequeninos -->
+        <div class="movie-info">
+          <img
+            src="assets/movies/3-mundo-dos-pequequinos.jpeg"
+            alt="Filme O Mundo dos Pequeninos"
+          />
+
+          <p class="text">
+            Arrietty e sua família são seres pequenos, moram sob uma casa antiga
+            e sobrevivem roubando itens da casa dos humanos e colocando a culpa
+            em gatos e ratos. Quando o jovem Shawn se hospeda na casa, fica
+            amigo de Arrietty, colocando o segredo em risco.
+          </p>
+
+          <button class="btn">saiba mais</button>
+        </div>
+
+        <!-- a viagem de chiriro -->
+        <div class="movie-info">
+          <img
+            src="assets/movies/4-viagem-de-chiriro.jpeg"
+            alt="Filme A Viagem de Chiriro0"
+          />
+
+          <p class="text">
+            Chihiro e seus pais estão se mudando para uma cidade diferente. A
+            caminho da nova casa, o pai decide pegar um atalho. Eles se deparam
+            com uma mesa repleta de comida, embora ninguém esteja por perto.
+            Chihiro sente o perigo, mas seus pais começam a comer. Quando
+            anoitece, eles se transformam em porcos.
+          </p>
+
+          <button class="btn">saiba mais</button>
+        </div>
+
+        <!-- kiki -->
+        <div class="movie-info">
+          <img
+            src="assets/movies/5-kiki.jpeg"
+            alt="Filme O Serviço de Entregas da Kiki"
+          />
+
+          <p class="text">
+            Por ordem de sua mãe, Kiki parte para um aprendizado de um ano,
+            acompanhada por seu gato preto. A um comando de sua vassoura mágica,
+            ela vai parar na charmosa cidadezinha de Moreoastal. Infelizmente,
+            os hotéis locais não aceitam bruxas e a polícia a flagra fazendo
+            algumas travessuras.
+          </p>
+
+          <button class="btn">saiba mais</button>
+        </div>
+
+        <!-- princesa mononoke -->
+        <div class="movie-info">
+          <img
+            src="assets/movies/6-princesa-mononoke.jpeg"
+            alt="Filme A Princesa Mononoke"
+          />
+
+          <p class="text">
+            Um príncipe, em busca de uma cura, luta em uma guerra entre a mata e
+            uma colônia mineira. Nesta aventura ele conhece Mononoke.
+          </p>
+
+          <button class="btn">saiba mais</button>
+        </div>
+
+        <!-- contos de terramar -->
+        <div class="movie-info">
+          <img
+            src="assets/movies/7-contos-de-terramar.jpeg"
+            alt="Filme Contos de Terramar"
+          />
+
+          <p class="text">
+            O mago Ged observa que o mundo está em desequilíbrio e conhece
+            Arren, um jovem príncipe que diz estar sendo perseguido por uma
+            sombra. Os dois se unem para descobrir o que está causando a
+            instabilidade e encontram a bruxa Kumo.
+          </p>
+
+          <button class="btn">saiba mais</button>
+        </div>
+
+        <!-- castelo no ceu -->
+        <div class="movie-info">
+          <img
+            src="assets/movies/8-o-castelo-no-ceu.jpeg"
+            alt="Filme O Castelo no Ceu"
+          />
+
+          <p class="text">
+            Sheeta, uma jovem órfã que possui um colar misterioso se une ao
+            mineiro Pazu para procurar uma lendária cidade flutuante. Mas a
+            dupla é perseguida por gananciosos piratas aéreos.
+          </p>
+
+          <button class="btn">saiba mais</button>
+        </div>
+
+        <!-- ponyo -->
+        <div class="movie-info">
+          <img src="assets/movies/9-ponyo.jpeg" alt="Filme Ponyo" />
+
+          <p class="text">
+            O garoto Sousuke encontra um peixinho dourado preso em uma garrafa e
+            decide libertá-lo, sem saber que se trata da deusa do mar Ponyo.
+            Filha de um poderoso mago, ela se comove com a atitude do menino e
+            usa a magia do pai para se transformar em humana.
+          </p>
+
+          <button class="btn">saiba mais</button>
+        </div>
+
+        <!-- porco rosso -->
+        <div class="movie-info">
+          <img
+            src="assets/movies/10-porco-rosso.jpeg"
+            alt="Filme Porco Rosso"
+          />
+
+          <p class="text">
+            Em "Porco Rosso", mergulhe na fascinante vida de Marco Pagot, um
+            ex-piloto da Força Aérea Italiana com uma aparência peculiarmente
+            porcina. Ambientado entre guerras, este filme do Studio Ghibli traz
+            uma aventura emocionante, onde combates aéreos e mistério se
+            entrelaçam em um enredo único.
+          </p>
+
+          <button class="btn">saiba mais</button>
+        </div>
+
+        <!-- reino dos gatos -->
+        <div class="movie-info">
+          <img
+            src="assets/movies/11-reino-dos-gatos.jpeg"
+            alt="Filme O Reino dos Gatos"
+          />
+
+          <p class="text">
+            Haru salva um gato que estava prestes a ser atropelado por um
+            caminhão e descobre que ele é, na verdade, um príncipe. Por gratidão
+            o Rei dos Gatos a pede em casamento, e a menina é levada para o
+            Reino dos Gatos. Agora, ela quer sua liberdade.
+          </p>
+
+          <button class="btn">saiba mais</button>
+        </div>
+
+        <!-- vidas ao vento -->
+        <div class="movie-info">
+          <img
+            src="assets/movies/12-vidas-ao-vento.jpg"
+            alt="Filme Vidas ao Vento"
+          />
+
+          <p class="text">
+            Jiro Horikoshi é um jovem que vive em uma cidade no interior do
+            Japão. Ele tem o sonho de voar em um avião com formato de pássaro. A
+            partir desse sonho, Jiro decide que construir um avião como deseja e
+            colocá-lo no ar é a meta de sua vida.
+          </p>
+
+          <button class="btn">saiba mais</button>
+        </div>
+
+        <!-- colina kokuriko -->
+        <div class="movie-info">
+          <img
+            src="assets/movies/13-colina-kokuriko.jpeg"
+            alt="Filme Da Colina Kokuriko"
+          />
+
+          <p class="text">
+            Em "Da Colina Kokuriko", explore a história envolvente de Umi
+            Matsuzaki, uma jovem forte e determinada que vive em uma pensão no
+            alto de uma colina. Este filme do Studio Ghibli nos leva a uma
+            jornada emocional repleta de amizade, amor e descobertas, enquanto
+            Umi busca desvendar o mistério de sua família e encontrar seu
+            próprio caminho.
+          </p>
+
+          <button class="btn">saiba mais</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- font awesome js -->
+    <script
+      src="https://kit.fontawesome.com/5b0674db03.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- main js -->
+    <script src="script/main.js"></script>
+  </body>
+</html>

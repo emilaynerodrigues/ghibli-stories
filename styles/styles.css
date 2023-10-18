@@ -1,0 +1,154 @@
+@charset "UTF-8";
+header {
+  height: 8%;
+  width: 75%;
+}
+header .logo {
+  font-family: "Anton", sans-serif;
+  font-size: 2.4rem;
+  color: #17171B;
+}
+
+.container {
+  width: 75%;
+  height: 85%;
+  display: flex;
+}
+
+.content {
+  height: 100%;
+}
+
+.content-1 {
+  width: 65%;
+}
+.content-1 .intro {
+  display: flex;
+  flex-direction: column;
+}
+.content-1 .intro .title,
+.content-1 .intro .title span {
+  font-family: "Amarante", sans-serif;
+  font-size: 6rem;
+  text-shadow: 5px 5px 2px rgba(23, 23, 27, 0.6352941176);
+  line-height: 8rem;
+}
+.content-1 .intro .title span {
+  display: flex;
+  justify-content: flex-end;
+}
+.content-1 .intro .text {
+  font-size: 1.6rem;
+  max-width: 40%;
+  margin: 1rem;
+}
+.content-1 .swiper {
+  max-width: 100%;
+  height: 21rem;
+}
+.content-1 .swiper .pagination {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.content-1 .swiper .pagination .swiper-button-next {
+  text-shadow: 5px 5px 2px rgba(23, 23, 27, 0.6352941176);
+  font-size: 1.6rem;
+  font-family: "Amarante", sans-serif;
+  color: #ffffff;
+  position: relative;
+  margin: 0;
+  right: 30px;
+}
+.content-1 .swiper .pagination .swiper-button-next:after {
+  font-size: 1.4rem;
+  margin-left: 0.8rem;
+}
+.content-1 .swiper .movie {
+  height: 16rem;
+  background-color: transparent;
+}
+.content-1 .swiper .movie img {
+  height: 100%;
+  border-radius: 1rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+  box-shadow: 5px 5px 2px rgba(23, 23, 27, 0.6352941176);
+}
+
+.btn {
+  width: 15rem;
+  height: 3.5rem;
+  border-radius: 3rem;
+  background-color: #AC912E;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  box-shadow: 5px 5px 2px rgba(23, 23, 27, 0.6352941176);
+  margin: 2rem 0;
+}
+
+.content-2 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.content-2 .movie-info {
+  max-width: 65%;
+  display: none;
+  flex-direction: column;
+  gap: 2rem;
+}
+.content-2 .movie-info img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 2px rgba(23, 23, 27, 0.6352941176);
+}
+.content-2 .movie-info .text {
+  font-size: 1.6rem;
+  display: -webkit-box;
+  /* Necessário para navegadores WebKit (como Safari e Chrome) */
+  -webkit-line-clamp: 5;
+  /* Limita a exibição a 5 linhas */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.content-2 .movie-info .btn {
+  margin: 0;
+}
+.content-2 .movie-info.active {
+  display: flex;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-size: 62.5%;
+  font-family: "Dosis", sans-serif;
+  color: #ffffff;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+body {
+  height: 100vh;
+  background-image: url("/assets/ghibli-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=styles.css.map */

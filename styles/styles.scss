@@ -1,0 +1,33 @@
+@import "partials/colors";
+@import "partials/layout";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-size: 62.5%;
+    font-family: 'Dosis', sans-serif;
+    color: $white-normal;
+    // scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+body {
+    height: 100vh;
+    background-image: url("/assets/ghibli-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
