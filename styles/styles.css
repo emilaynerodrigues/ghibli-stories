@@ -144,7 +144,7 @@ button {
 
 body {
   height: 100vh;
-  background-image: url("/assets/ghibli-bg.jpg");
+  background-image: url("../assets/ghibli-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
