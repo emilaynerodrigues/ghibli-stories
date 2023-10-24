@@ -8,6 +8,17 @@ var swiper = new Swiper(".mySwiper", {
   pagination: {
     clickable: true,
   },
+  breakpoints: {
+    0: {
+      slidesPerView: 2,
+    },
+    520: {
+      slidesPerView: 3,
+    },
+    950: {
+      slidesPerView: 5,
+    },
+  },
 });
 
 //selecionando botões com class movie

@@ -135,9 +135,99 @@ header {
         }
     }
 
-    .movie-info.active{
+    .movie-info.active {
         display: flex;
     }
 }
 
+@media screen and (max-width: 768px) {
 
+    header {
+        width: 80%;
+        height: 10%;
+    }
+
+    .container {
+        width: 80%;
+        height: 80%;
+    }
+
+    .content-1 {
+        width: 100%;
+
+        .intro {
+            margin: 2rem 0 1rem 0;
+
+            .title,
+            .title span {
+                font-size: 6rem;
+                line-height: 8rem;
+            }
+
+            .text {
+                font-size: 1.7rem;
+                max-width: 80%;
+                margin: 5rem 0 3rem 0;
+            }
+        }
+
+        .swiper {
+            height: 30rem;
+
+            .movie {
+                height: 24.5rem;
+                margin-top: 1rem;
+            }
+        }
+    }
+
+    .btn {
+        width: 18rem;
+        margin: 2rem 0 0 0;
+        position: relative;
+        transform: translate(-50%, -50%);
+        left: 50%;
+    }
+
+    .content-2 {
+        display: none;
+    }
+}
+
+//telas menores
+@media screen and (max-width: 480px) {
+    header {
+        .logo {
+            font-size: 2rem;
+        }
+    }
+
+    .content-1 {
+        width: 100%;
+
+        .intro {
+
+            .title,
+            .title span {
+                font-size: 3.6rem;
+                line-height: 6rem;
+            }
+
+            .text {
+                max-width: 100%;
+            }
+        }
+
+        .swiper {
+            height: 26rem;
+
+            .movie {
+                height: 21rem;
+                margin-top: 0;
+
+            }
+
+        }
+    }
+
+}
