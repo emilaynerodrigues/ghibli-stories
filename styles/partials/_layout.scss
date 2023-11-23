@@ -138,7 +138,7 @@ header {
 }
 
 //telas laptops menores
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1444px) {
   .content-1 {
     .intro {
       .title,
@@ -180,7 +180,7 @@ header {
     width: 100%;
 
     .intro {
-      margin: 2rem 0 1rem 0;
+      margin: 1rem 0;
 
       .title,
       .title span {
@@ -191,22 +191,22 @@ header {
       .text {
         font-size: 1.7rem;
         max-width: 80%;
-        margin: 5rem 0 3rem 0;
+        margin: 2rem 0 2rem 0;
       }
     }
 
     .swiper {
-      height: 30rem;
+      height: 26rem;
 
       .movie {
-        height: 24.5rem;
+        height: 20rem;
         margin-top: 1rem;
       }
     }
   }
 
   .btn {
-    width: 18rem;
+    width: 12rem;
     margin: 2rem 0 0 0;
     position: relative;
     transform: translate(-50%, -50%);
@@ -218,8 +218,21 @@ header {
   }
 }
 
+//quebra de tela
+@media screen and (max-width: 600px) {
+  .content-1 {
+    .intro {
+      .title,
+      .title span {
+        font-size: 4.5rem;
+        line-height: 6rem;
+      }
+    }
+  }
+}
+
 //telas menores
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 490px) {
   header {
     .logo {
       font-size: 2rem;
@@ -232,7 +245,7 @@ header {
     .intro {
       .title,
       .title span {
-        font-size: 3.6rem;
+        font-size: 4rem;
         line-height: 6rem;
       }
 
@@ -252,33 +265,30 @@ header {
   }
 }
 
-//telas ainda menores
-@media screen and (max-width: 380px) {
-   
-  
-    .content-1 {
-      width: 100%;
-  
-      .intro {
-        .title,
-        .title span {
-          font-size: 3rem;
-          line-height: 5rem;
-        }
-  
-        .text {
-          max-width: 100%;
-        }
+//quebra de tela
+@media screen and (max-width: 400px) {
+  .content-1 {
+    width: 100%;
+
+    .intro {
+      .title,
+      .title span {
+        font-size: 3rem;
+        line-height: 5rem;
       }
-  
-      .swiper {
-        height: 26rem;
-  
-        .movie {
-          height: 21rem;
-          margin-top: 0;
-        }
+
+      .text {
+        max-width: 100%;
+      }
+    }
+
+    .swiper {
+      height: 26rem;
+
+      .movie {
+        height: 21rem;
+        margin-top: 0;
       }
     }
   }
-  
+}
